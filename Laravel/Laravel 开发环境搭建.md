@@ -1,6 +1,6 @@
 # Laravel 开发环境搭建
 
-[Laravel 教程 - Web 开发实战入门 ( Laravel 5.5 )](https://fsdhub.com/books/laravel-essential-training-5.5) / [第二章. 开发环境布置](javascript:void(0);) 
+引用来自[Laravel 教程 - Web 开发实战入门 ( Laravel 5.5 )](https://fsdhub.com/books/laravel-essential-training-5.5) / [第二章. 开发环境布置](javascript:void(0);) 
 
 
 
@@ -352,7 +352,7 @@ sites:
 
 至此站点就配置好了，等我们在后面章节创建 Laravel 项目后，即可通过浏览器访问 homestead.app 站点。
 
-**5.** **数据库配置**[#](https://fsdhub.com/books/laravel-essential-training-5.5/557/development-environment-windows#5-数据库配置)
+**5.** **数据库配置**
 
 我们可以为 Homestead 指定数据库名称，这里使用默认设置即可。
 
@@ -360,7 +360,22 @@ databases:
 
   \- homestead
 
-**6.** **自定义变量**[#](https://fsdhub.com/books/laravel-essential-training-5.5/557/development-environment-windows#6-自定义变量)
+**6.** **数据库连接**
+
+尽管homestead已经配置好了MySQL和PostgreSQL，但是为了能从你主机（并非Homestead虚拟机）连接访问你在MySQL或PostgreSQL上数据库，你需要在主机的数据库客户端连接port 33060 (MySQL) or 54320 (PostgreSQL)连接127.0.0.1。访问数据库的用户名和密码为：homestead / secret.
+
+从你的主机数据库客户端连接homestead虚拟机时，你只能使用上面的非标准端口（Homestead虚拟机定义的，可以通过homestead.yaml修改）。但是由于你的Laravel应用是运行在Homestead虚拟机上，所以在你的Laravel应用中，你必须使用默认的标准端口3306(mySQL)和 端口5432（PostgreSQL)。
+
+为了使你的Laravel应用能够正常访问数据库，你需要修改 .env 以访问数据库（以mySQL为例）。
+
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=homestead
+    DB_USERNAME=homestead
+    DB_PASSWORD=secret
+
+**7.** **自定义变量**
 
 最后，如果你需要自定义一些在虚拟机上可以使用的自定义变量，则可以在 variables 中进行定义。
 
@@ -372,7 +387,7 @@ variables:
 
 Homestead 自定义变量在本书中并未使用，知悉有此功能即可。
 
-**运行** **Vagrant**[#](https://fsdhub.com/books/laravel-essential-training-5.5/557/development-environment-windows#运行-Vagrant)
+**运行** **Vagrant**
 
 完成了 Homestead 的配置，接下来我们要开始启动虚拟机了。
 
@@ -393,7 +408,7 @@ Homestead 自定义变量在本书中并未使用，知悉有此功能即可。
 
 第一次启动时，Vagrant 会做以下这几件事情：
 
-- 以导入的     Homestead 虚拟机盒子为模板，新建一台虚拟机；
+- 以导入的 Homestead 虚拟机盒子为模板，新建一台虚拟机；
 - 并按照 Homestead.yaml 里的配置信息，对这台新建的虚拟机进行配置；
 - 配置完成后启动虚拟机。
 
@@ -403,11 +418,7 @@ Homestead 自定义变量在本书中并未使用，知悉有此功能即可。
 
 在我们登录成功后，你能看到类似于如下图的界面，现在我们在该终端界面中输入的所有命令都将运行在 Homestead 虚拟机上。
 
-<img src="./img/clip_image011.png">
-
-[![JWXEpjiUdi.png](file:///C:/Users/yuanhui.sun/AppData/Local/Temp/msohtmlclip1/01/clip_image011.png)](https://fsdhubcdn.phphub.org/uploads/images/201705/15/1/JWXEpjiUdi.png)
-
- 
+<img src="./img/clip_image010.png">
 
 在虚拟机界面下可以输入退出虚拟机：
 
