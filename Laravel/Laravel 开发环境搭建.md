@@ -48,7 +48,7 @@ Vagrant 是用来管理虚拟机的工具，支持当前主流的虚拟机系统
 然后一步一步按照默认安装即可。
 
 
-
+<img src="./img/clip_image002.png">
 [![file](file:///./img/clip_image002.png)](https://fsdhubcdn.phphub.org/uploads/images/201705/15/1/5pNsoIyopD.png)
 
  
@@ -83,7 +83,7 @@ homestead.box 虚拟机盒子是提前打包好的 Vagrant Box 虚拟机盒子�
 
 打不开的用户，下图是截屏：
 
-
+<img src="./img/clip_image003.png">
 
 [![file](file:///C:/Users/yuanhui.sun/AppData/Local/Temp/msohtmlclip1/01/clip_image003.png)](https://fsdhubcdn.phphub.org/uploads/images/201705/15/1/U8hJY6A9Bf.png)
 
@@ -124,7 +124,7 @@ homestead.box 虚拟机盒子是提前打包好的 Vagrant Box 虚拟机盒子�
 如下图所示：
 
 
-
+<img src="./img/clip_image004.png">
 [![file](file:///./clip_image004.png)](https://fsdhubcdn.phphub.org/uploads/images/201708/24/1/MnmDSnQ7MT.png)
 
  
@@ -147,7 +147,7 @@ homestead.box 虚拟机盒子是提前打包好的 Vagrant Box 虚拟机盒子�
 git version 2.12.2.windows.2
 
 
-
+<img src="./img/clip_image005.png">
 [![file](file:///C:/Users/yuanhui.sun/AppData/Local/Temp/msohtmlclip1/01/clip_image005.png)](https://fsdhubcdn.phphub.org/uploads/images/201705/15/1/gh7zMAHbb7.png)
 
  
@@ -169,7 +169,7 @@ git version 2.12.2.windows.2
 
 Windows 下，~ 目录代表着 C:\Users\你的用户名，而 ~/Homestead 代表着 C:\Users\你的用户名\Homestead目录，类似：
 
-
+<img src="./img/clip_image006.png">
 
 [![file](file:///C:/Users/yuanhui.sun/AppData/Local/Temp/msohtmlclip1/01/clip_image006.png)](https://fsdhubcdn.phphub.org/uploads/images/201705/15/1/N4gHuniPOo.png)
 
@@ -274,7 +274,7 @@ Enter same passphrase again: [Type passphrase again]
 
 可以都选择默认，一路 Enter 键即可，大致如下：
 
-
+<img src="./img/clip_image007.png">
 
 [![file](file:///C:/Users/yuanhui.sun/AppData/Local/Temp/msohtmlclip1/01/clip_image007.png)](https://fsdhubcdn.phphub.org/uploads/images/201705/15/1/NYGpuWJUwg.png)
 
@@ -286,7 +286,7 @@ Enter same passphrase again: [Type passphrase again]
 
 查看的话，会出现：
 
-
+<img src="./img/clip_image008.png">
 
 [![file](file:///C:/Users/yuanhui.sun/AppData/Local/Temp/msohtmlclip1/01/clip_image008.png)](https://fsdhubcdn.phphub.org/uploads/images/201705/15/1/dSvnHjL9NB.png)
 
@@ -321,7 +321,7 @@ folders:
 执行成功后，同样的，我们可以通过 explorer . 命令在文件夹中打开此目录：
 
 
-
+<img src="./img/clip_image009.png">
 [![file](file:///C:/Users/yuanhui.sun/AppData/Local/Temp/msohtmlclip1/01/clip_image009.png)](https://fsdhubcdn.phphub.org/uploads/images/201705/15/1/MzrQpf4cEZ.png)
 
  
@@ -403,7 +403,7 @@ Homestead 自定义变量在本书中并未使用，知悉有此功能即可。
 
 在我们登录成功后，你能看到类似于如下图的界面，现在我们在该终端界面中输入的所有命令都将运行在 Homestead 虚拟机上。
 
-
+<img src="./img/clip_image011.png">
 
 [![JWXEpjiUdi.png](file:///C:/Users/yuanhui.sun/AppData/Local/Temp/msohtmlclip1/01/clip_image011.png)](https://fsdhubcdn.phphub.org/uploads/images/201705/15/1/JWXEpjiUdi.png)
 
