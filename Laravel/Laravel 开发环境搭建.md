@@ -29,7 +29,7 @@ VirtualBox 是 Oracle 公司的开源虚拟机软件。VirtualBox 号称是最�
 
 下载完成之后，双击安装包进行安装。
 
-
+<img src="./img/clip_image001.png">
 
 [![file](file:///./img/clip_image001.png)](https://fsdhubcdn.phphub.org/uploads/images/201705/15/1/IzWPcM1vyw.png)
 
