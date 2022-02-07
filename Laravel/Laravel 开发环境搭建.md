@@ -19,7 +19,7 @@ Windows 7 及以上。
 ### 6. 配置 Homestead.yaml 文件
 ### 7. 启动     Homestead 虚拟机
 
-### 安装** **VirtualBox**[#](https://fsdhub.com/books/laravel-essential-training-5.5/557/development-environment-windows#安装-VirtualBox)
+### 安装** **VirtualBox**
 
 VirtualBox 是 Oracle 公司的开源虚拟机软件。VirtualBox 号称是最强的免费虚拟机软件，它不仅功能齐全，而且性能也很优异！VirtualBox 支持大部分流行的系统，如：Mac, Windows, Linux 等。
 
@@ -29,11 +29,9 @@ VirtualBox 是 Oracle 公司的开源虚拟机软件。VirtualBox 号称是最�
 
 下载完成之后，双击安装包进行安装。
 
-<img src="./img/clip_image001.png">
+<img src="./img/homestead_image001.png">
 
-[![file](file:///./img/clip_image001.png)](https://fsdhubcdn.phphub.org/uploads/images/201705/15/1/IzWPcM1vyw.png)
 
- 
 
 之后按照提示操作一步一步进行安装即可。
 
@@ -47,11 +45,7 @@ Vagrant 是用来管理虚拟机的工具，支持当前主流的虚拟机系统
 
 然后一步一步按照默认安装即可。
 
-
-<img src="./img/clip_image002.png">
-[![file](file:///./img/clip_image002.png)](https://fsdhubcdn.phphub.org/uploads/images/201705/15/1/5pNsoIyopD.png)
-
- 
+<img src="./img/homestead_image002.png">
 
 ### Homestead** **介绍**[#](https://fsdhub.com/books/laravel-essential-training-5.5/557/development-environment-windows#Homestead-介绍)
 
@@ -83,11 +77,9 @@ homestead.box 虚拟机盒子是提前打包好的 Vagrant Box 虚拟机盒子�
 
 打不开的用户，下图是截屏：
 
-<img src="./img/clip_image003.png">
+<img src="./img/homestead_image003.png">
 
-[![file](file:///C:/Users/yuanhui.sun/AppData/Local/Temp/msohtmlclip1/01/clip_image003.png)](https://fsdhubcdn.phphub.org/uploads/images/201705/15/1/U8hJY6A9Bf.png)
 
- 
 
 可以看出 Homestead Box 虚拟机盒子有很多版本。不过，如 Homestead 脚本，为了学习的流畅性，我们接下来将会使用定制版本的虚拟机盒子，你不需要太担心版本的事情。
 
@@ -123,11 +115,7 @@ homestead.box 虚拟机盒子是提前打包好的 Vagrant Box 虚拟机盒子�
 
 如下图所示：
 
-
-<img src="./img/clip_image004.png">
-[![file](file:///./clip_image004.png)](https://fsdhubcdn.phphub.org/uploads/images/201708/24/1/MnmDSnQ7MT.png)
-
- 
+<img src="./img/homestead_image004.png">
 
 如果你使用的 Windows 系统在安装 Homestead 的时候报错：The box 'laravel/homestead' could not be found or
  could not be accessed in the remote catalog.，请下载 [MS Visual C++ 2010 x86 Redistributables](https://www.microsoft.com/en-us/download/confirmation.aspx?id=5555) 并进行安装即可修复。
@@ -146,11 +134,7 @@ homestead.box 虚拟机盒子是提前打包好的 Vagrant Box 虚拟机盒子�
 
 git version 2.12.2.windows.2
 
-
-<img src="./img/clip_image005.png">
-[![file](file:///C:/Users/yuanhui.sun/AppData/Local/Temp/msohtmlclip1/01/clip_image005.png)](https://fsdhubcdn.phphub.org/uploads/images/201705/15/1/gh7zMAHbb7.png)
-
- 
+<img src="./img/homestead_image005.png">
 
 注：不需要担心你的版本与我不同。
 
@@ -169,11 +153,9 @@ git version 2.12.2.windows.2
 
 Windows 下，~ 目录代表着 C:\Users\你的用户名，而 ~/Homestead 代表着 C:\Users\你的用户名\Homestead目录，类似：
 
-<img src="./img/clip_image006.png">
+<img src="./img/homestead_image006.png">
 
-[![file](file:///C:/Users/yuanhui.sun/AppData/Local/Temp/msohtmlclip1/01/clip_image006.png)](https://fsdhubcdn.phphub.org/uploads/images/201705/15/1/N4gHuniPOo.png)
 
- 
 
 注：我们把 Homestead 放在 ~/Homestead 路径下，为方便后面的讲解，请保持一致。
 
@@ -274,9 +256,7 @@ Enter same passphrase again: [Type passphrase again]
 
 可以都选择默认，一路 Enter 键即可，大致如下：
 
-<img src="./img/clip_image007.png">
-
-[![file](file:///C:/Users/yuanhui.sun/AppData/Local/Temp/msohtmlclip1/01/clip_image007.png)](https://fsdhubcdn.phphub.org/uploads/images/201705/15/1/NYGpuWJUwg.png)
+<img src="./img/homestead_image007.png">
 
  
 
@@ -286,11 +266,9 @@ Enter same passphrase again: [Type passphrase again]
 
 查看的话，会出现：
 
-<img src="./img/clip_image008.png">
+<img src="./img/homestead_image008.png">
 
-[![file](file:///C:/Users/yuanhui.sun/AppData/Local/Temp/msohtmlclip1/01/clip_image008.png)](https://fsdhubcdn.phphub.org/uploads/images/201705/15/1/dSvnHjL9NB.png)
 
- 
 
 SSH 秘钥的两个文件：
 
@@ -320,13 +298,9 @@ folders:
 
 执行成功后，同样的，我们可以通过 explorer . 命令在文件夹中打开此目录：
 
+<img src="./img/homestead_image009.png">
 
-<img src="./img/clip_image009.png">
-[![file](file:///C:/Users/yuanhui.sun/AppData/Local/Temp/msohtmlclip1/01/clip_image009.png)](https://fsdhubcdn.phphub.org/uploads/images/201705/15/1/MzrQpf4cEZ.png)
-
- 
-
-在后面的章节中，我们将会在该文件夹下放置我们所有的 Laravel 项目，Homestead 会把该文件夹下的项目自动映射到虚拟机的 /home/vagrant/Code 文件夹上。
+ 在后面的章节中，我们将会在该文件夹下放置我们所有的 Laravel 项目，Homestead 会把该文件夹下的项目自动映射到虚拟机的 /home/vagrant/Code 文件夹上。
 
 **4.** **站点配置**[#](https://fsdhub.com/books/laravel-essential-training-5.5/557/development-environment-windows#4-站点配置)
 
@@ -418,7 +392,7 @@ Homestead 自定义变量在本书中并未使用，知悉有此功能即可。
 
 在我们登录成功后，你能看到类似于如下图的界面，现在我们在该终端界面中输入的所有命令都将运行在 Homestead 虚拟机上。
 
-<img src="./img/clip_image010.png">
+<img src="./img/homestead_image010.png">
 
 在虚拟机界面下可以输入退出虚拟机：
 
