@@ -8,4 +8,4 @@
   [PHP Artisan命令](./PHP-Artisan.md)
 
 ## WSL2和Ubuntu学习材料
-	[在Ubuntu上安装PHP 8.1](./install-PHP-in-Ubuntu.md)
+  [在Ubuntu上安装PHP 8.1](./install-PHP-in-Ubuntu.md)
