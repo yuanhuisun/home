@@ -1,12 +1,12 @@
-#### PHP artisan 命令列表
+## PHP artisan 命令列表
 Laravel Framework 8.80.0
 
 命令列表基于 php artisan list命令
 
-## Usage:
+### Usage:
   command [options] [arguments]
 
-## Options:
+### Options:
   -h, --help            Display help for the given command. When no command is given display help for the list command
   -q, --quiet           Do not output any message
   -V, --version         Display this application version
@@ -15,7 +15,7 @@ Laravel Framework 8.80.0
       --env[=ENV]       The environment the command should run under
   -v|vv|vvv, --verbose  Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
 
-### Available commands:
+#### Available commands:
   clear-compiled        Remove the compiled class file
   completion            Dump the shell completion script
   db                    Start a new database CLI session
@@ -30,28 +30,28 @@ Laravel Framework 8.80.0
   test                  Run the application tests
   tinker                Interact with your application
   up                    Bring the application out of maintenance mode
-### auth
+#### auth
   auth:clear-resets     Flush expired password reset tokens
-### breeze
+#### breeze
   breeze:install        Install the Breeze controllers and resources
-### cache
+#### cache
   cache:clear           Flush the application cache
   cache:forget          Remove an item from the cache
   cache:table           Create a migration for the cache database table
-### config
+#### config
   config:cache          Create a cache file for faster configuration loading
   config:clear          Remove the configuration cache file
-### db
+#### db
   db:seed               Seed the database with records
   db:wipe               Drop all tables, views, and types
-### event
+#### event
   event:cache           Discover and cache the application's events and listeners
   event:clear           Clear all cached events and listeners
   event:generate        Generate the missing events and listeners based on registration
   event:list            List the application's events and listeners
-### key
+#### key
   key:generate          Set the application key
-### make
+#### make
   make:cast             Create a new custom Eloquent cast class
   make:channel          Create a new channel class
   make:command          Create a new Artisan command
@@ -75,22 +75,22 @@ Laravel Framework 8.80.0
   make:rule             Create a new validation rule
   make:seeder           Create a new seeder class
   make:test             Create a new test class
-### migrate
+#### migrate
   migrate:fresh         Drop all tables and re-run all migrations
   migrate:install       Create the migration repository
   migrate:refresh       Reset and re-run all migrations
   migrate:reset         Rollback all database migrations
   migrate:rollback      Rollback the last database migration
   migrate:status        Show the status of each migration
-### model
+#### model
   model:prune           Prune models that are no longer needed
-### notifications
+#### notifications
   notifications:table   Create a migration for the notifications table
-### optimize
+#### optimize
   optimize:clear        Remove the cached bootstrap files
-### package
+#### package
   package:discover      Rebuild the cached package manifest
-### queue
+#### queue
   queue:batches-table   Create a migration for the batches database table
   queue:clear           Delete all of the jobs from the specified queue
   queue:failed          List all of the failed queue jobs
@@ -106,29 +106,29 @@ Laravel Framework 8.80.0
   queue:retry-batch     Retry the failed jobs for a batch
   queue:table           Create a migration for the queue jobs database table
   queue:work            Start processing jobs on the queue as a daemon
-### route
+#### route
   route:cache           Create a route cache file for faster route registration
   route:clear           Remove the route cache file
   route:list            List all registered routes
-### sail
+#### sail
   sail:install          Install Laravel Sail's default Docker Compose file
   sail:publish          Publish the Laravel Sail Docker files
-### schedule
+#### schedule
   schedule:clear-cache  Delete the cached mutex files created by scheduler
   schedule:list         List the scheduled commands
   schedule:run          Run the scheduled commands
   schedule:test         Run a scheduled command
   schedule:work         Start the schedule worker
-### schema
+#### schema
   schema:dump           Dump the given database schema
-### session
+#### session
   session:table         Create a migration for the session database table
-### storage
+#### storage
   storage:link          Create the symbolic links configured for the application
-### stub
+#### stub
   stub:publish          Publish all stubs that are available for customization
-### vendor
+#### vendor
   vendor:publish        Publish any publishable assets from vendor packages
-### view
+#### view
   view:cache            Compile all of the application's Blade templates
   view:clear            Clear all compiled view files
