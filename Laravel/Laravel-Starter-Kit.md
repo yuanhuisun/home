@@ -62,7 +62,10 @@ app 目录包含各种目录，如 Console、Http 和 Providers。可以将 Cons
   - Rules 目录
 
 
-### 理解Laravel基础架构
+### 理解Laravel基础核心架构
+
+#### 请求生命周期简介
+
 
 
 ## 用户认证与授权
